@@ -127,7 +127,7 @@ The production build is plain static output. To inspect it locally:
 npm run preview -- --port 4173 --strictPort
 ```
 
-GitHub Actions configuration is included for the same checks, with one browser worker. **Hosted CI has not run.** No remote, deployment, or public publication is part of this project. An [optional AWS static-hosting design](docs/AWS-ARCHITECTURE.md) is documentation only.
+GitHub Actions runs the same checks with one browser worker and passed for the prior verified commit `889809d78b8e91ee4d0dc08a9290c12fe7c1fa7f` ([successful run 38912207725](https://github.com/notfrostedwow/realtime-trading-dashboard/actions/runs/38912207725)). The [source is public](https://github.com/notfrostedwow/realtime-trading-dashboard); no hosted deployment is provided. An [optional AWS static-hosting design](docs/AWS-ARCHITECTURE.md) is documentation only.
 
 ## Design decisions
 
